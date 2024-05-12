@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="/css/contactus.css">
+</head>
+<body>
+
+    <div class="heading">
+        <h1>Mustafa & Sultan's Cuisine</h1>
+        <a href="/html/index.html"> Home </a>
+        <h2> Contact Us </h2>
+    </div>
+    
+<div class="container">
+
+  <section>
+    <h2>Get in Touch</h2>
+    <p>Have a question or suggestion? Drop us a message below!</p>
+    <form action="#" method="post">
+      <label for="name">Your Name:</label><br>
+      <input type="text" id="name" name="name" required><br>
+      <label for="email">Your Email:</label><br>
+      <input type="email" id="email" name="email" required><br>
+      <label for="message">Your Message:</label><br>
+      <textarea id="message" name="message" rows="4" required></textarea><br>
+      <button type="button" onclick="submitForm()">Submit</button>
+      <script>
+        function submitForm() {
+
+          alert('Your feedback has been sent.');
+
+        }
+    </script>
+
+    </form>
+  </section>
+  
+</div>
+</body>
+</html>
